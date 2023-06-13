@@ -23,11 +23,8 @@ body{
   gap:20px;
 
 }
-/* .container p, .container2 p {
-  visibility: hidden;
-  font-size: 0px;
-}
 
+<<<<<<< HEAD
 .card1:hover>p{
   visibility: visible;
 font-size: medium;
@@ -36,6 +33,8 @@ p{
   visibility: hidden;
   font-size: 0px;
 } */
+=======
+>>>>>>> 2c037925105278adb4d253bca3a506ba0646cfd4
 .container2, .container{
   text-align: center;
 
