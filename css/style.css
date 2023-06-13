@@ -1,6 +1,8 @@
 body{
   font-family: 'Vazirmatn', sans-serif;
 }
+
+
 .container{
   margin-top: 2%;
   display: flex;
@@ -58,7 +60,8 @@ border-radius: 15px;
   align-items: end;
   justify-content: end;
 }
-img{
+
+.picture{
   border-radius: 15px 15px 0px 0px;
 }
 
