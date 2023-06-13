@@ -1,3 +1,6 @@
+body{
+  font-family: 'Vazirmatn', sans-serif;
+}
 .container{
   margin-top: 2%;
   display: flex;
@@ -6,13 +9,16 @@
   gap:20px;
 
 }
+.card1 a, .card2 a, .card3 a, .card4 a, .card5 a{
+  text-decoration: none;
+  color: white;
+}
 .container2{
  margin-top: 2%;
   display: flex;
   height: 600px;
   justify-content: center;
   gap:20px;
-
 
 }
 /* .container p, .container2 p {
@@ -33,7 +39,7 @@ p{
 
 }
 .card1, .card2, .card3{
-background-color: #71C9CE;
+background-color: #526D82;
 border: 0px solid black ;
 width: 200px;
 height: 2%;
@@ -45,7 +51,8 @@ border-radius: 15px;
 .card4, .card5{
   height: min-content;
   width: 200px;
-  background-color: #71C9CE;
+  background-color: #526D82;
+
   border: 0px solid black ;
   border-radius: 15px;
   align-items: end;
@@ -72,7 +79,7 @@ header{
   display: flex;
   gap: 2%;
 }
-a{
+header a{
   color: whitesmoke;
   text-decoration: none;
 
@@ -83,7 +90,8 @@ a{
 
 
 }
-img{
+header img{
   border-radius: 45px;
   
 }
+
