@@ -1,13 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
-  font-family: 'Vazirmatn', sans-serif;
+ 
+
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Titillium Web', sans-serif;
+  
 }
 
 .container{
-  margin-top: 2%;
+  margin-top: 3%;
   display: flex;
 
   justify-content: center;
-  gap: 2%;
+  justify-content: space-evenly;
 
 }
 
