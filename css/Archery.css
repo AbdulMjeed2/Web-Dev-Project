@@ -1,22 +1,23 @@
-h1, p{
-    color: #72A0C1;
+.about p, .about h1{
+  color: #03001C;
 }
 .hr {
 	border-top: 2px dotted #03001C;
 
 }
-.about{
+h1{
   text-align: center;
   font-size: 25px;
 }
-.card-container {
+.card-container{
   width: 300px;
   height: 300px;
   position: relative;
   border-radius: 10px;
 }
-
-
+.container{
+  height: fit-content;
+}
 .card-container::before {
   content: "";
   z-index: -1;
@@ -26,6 +27,7 @@ h1, p{
   transform: translate3d(0, 0, 0) scale(0.95);
   filter: blur(20px);
 }
+
 
 .card {
   width: 100%;
@@ -78,7 +80,10 @@ h1, p{
   font-weight: 700;
 
 }
-
+.container2{
+ height: fit-content;
+ margin-bottom: 20px;
+}
 .card:hover .content {
   opacity: 1;
   transform: translateY(0);
@@ -106,7 +111,4 @@ h1, p{
 .content p{
   /* font-weight: bold; */
   color: white;
-}
-.about p, .about h1{
-  color: #03001C;
 }
