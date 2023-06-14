@@ -129,7 +129,7 @@ header img{
 
 .card:hover .img-content {
   scale: 2.5;
-  rotate: 30deg;
+
   filter: blur(7px);
 }
 
@@ -139,4 +139,7 @@ header img{
 
 .heading{
   margin: auto;
+}
+.card-container a{
+  border-radius: 10px;
 }
