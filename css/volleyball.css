@@ -5,12 +5,11 @@ h1, p{
 border-top: 2px dotted #03001C;
 
 }
-body{
-  background-color: #03001C;
-
+h2{
+  text-align: center;
 }
-p, h1, h3{
-  color: white;
+.about p, .about h1{
+  color: #03001C;
 }
 
 .about h1{

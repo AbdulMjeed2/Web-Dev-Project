@@ -72,10 +72,14 @@ h1, p{
 
 .card .content .heading {
   font-size: 32px;
-  font-weight: 700;
+
 
 }
-
+.about, h1{
+    color: #03001C;
+    text-align: center;
+    font-size: 35px;
+}
 .card:hover .content {
   opacity: 1;
   transform: translateY(0);
@@ -83,9 +87,13 @@ h1, p{
 
 .card:hover .img-content {
   scale: 2.5;
-  rotate: 30deg;
+
   filter: blur(7px);
 }
+.container2{
+    height: fit-content;
+    margin-bottom: 20px;
+   }
 
 .card:hover .img-content svg {
   fill: transparent;
@@ -101,7 +109,7 @@ h1, p{
   -moz-box-shadow: -1px 0px 32px 4px rgba(0,0,0,0.75);
 }
 .content p{
-  font-weight: bold;
+
   color: white;
 }
 .about p, .about h1{
