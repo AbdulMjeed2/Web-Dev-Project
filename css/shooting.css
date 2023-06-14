@@ -5,22 +5,17 @@ h1, p{
 	border-top: 2px dotted #03001C;
 
 }
-
+.about{
+  text-align: center;
+  font-size: 25px;
+}
 .card-container {
   width: 300px;
   height: 300px;
   position: relative;
   border-radius: 10px;
 }
-.container{
-  display: flex;
-  justify-content: space-evenly;
-}
-.container2{
-  display: flex;
-  justify-content: space-evenly;
- 
-}
+
 
 .card-container::before {
   content: "";
@@ -91,7 +86,7 @@ h1, p{
 
 .card:hover .img-content {
   scale: 2.5;
-  rotate: 30deg;
+ 
   filter: blur(7px);
 }
 
