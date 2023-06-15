@@ -20,7 +20,7 @@ Whether you're looking to try a new sport, enhance your skills, or stay informed
 
 ### Fahad Saad 
 - Made The Home Page
-- Made The Swqimming page
+- Made The Swimming page
 - Made The README File
 - Created The Header
 - Updated The Cards
