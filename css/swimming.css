@@ -16,6 +16,9 @@ font-family: 'Titillium Web', sans-serif;
     margin: auto;
 
   }
+  .card-container{
+    justify-content: space-evenly;
+  }
   #little-title{
     text-align: center;
     margin: auto;
@@ -37,3 +40,24 @@ font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
   
   }
+
+
+
+
+
+
+  #container{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    gap: 1%;
+  
+  }
+  
+
+
+  
+ 
+  
+ 
