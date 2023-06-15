@@ -151,3 +151,6 @@ header a{
 .card-container a{
   border-radius: 10px;
 }
+#logo{
+  border-radius: 45px;
+}
